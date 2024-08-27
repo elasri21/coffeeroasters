@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here]()
-- Live Site URL: [Click here]()
+- Solution URL: [Click here](https://github.com/elasri21/coffeeroasters)
+- Live Site URL: [Click here](https://elasri21.github.io/coffeeroasters/)
 
 ## My process
 
