@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Coffeeroasters - choose plan</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo c-flex"><img src="./assets/shared/desktop/logo.svg" alt="logo"></div>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="plan.html">create your plan</a></li>
+            </ul>
+            <button class="c-flex open"><i class="fa-solid fa-bars"></i></button>
+            <button class="c-flex close"><i class="fa-solid fa-times"></i></button>
+        </div>
+    </nav>
+    <header class="plan-header">
+        <div class="container">
+            <h1>great coffee made simple</h1>
+            <p>start your mornings with the world's best coffees. try our expertly artisan coffees from our best roasters delivered directely to your door, at your schedule.</p>
+            <button class="create-plan btn" onclick="window.location.href='#plans'">create your plan</button>
+        </div>
+    </header>
+    <main class="main-plan">
+        <section class="choose-plan">
+            <div class="container">
+                <div class="box">
+                    <h3>01</h3>
+                    <h4>Pick your coffee</h4>
+                    <p>Select from our evolving range of artisan coffees. Our beans are
+                        ethically sourced and we pay fair prices for them. There are new
+                        coffees in all profiles every month for you to try out.</p>
+                </div>
+                <div class="box">
+                    <h3>02</h3>
+                    <h4>Choose the frequency</h4>
+                    <p>Customize your order frequency, quantity, even your roast style and
+                        grind type. Pause, skip or cancel your subscription with no commitment
+                        through our online portal.</p>
+                </div>
+                <div class="box">
+                    <h3>03</h3>
+                    <h4>Receive and enjoy!</h4>
+                    <p>We ship your package within 48 hours, freshly roasted. Sit back and
+                        enjoy award-winning world-class coffees curated to provide a distinct
+                        tasting experience.</p>
+                </div>
+            </div>
+        </section>
+        <section class="plans" id="plans">
+            <div class="container">
+                <div class="aside">
+                    <button>
+                        <span>01</span>
+                        preferences
+                    </button>
+                    <button>
+                        <span>02</span>
+                        bean type
+                    </button>
+                    <button>
+                        <span>03</span>
+                        quantity
+                    </button>
+                    <button>
+                        <span>04</span>
+                        grind option
+                    </button>
+                    <button>
+                        <span>05</span>
+                        deliveries
+                    </button>
+                </div>
+                <div class="main">
+                    <div class="category preferences">
+                        <button>
+                            <h3>How do you drink your coffee?</h3>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </button>
+                        <div class="boxes">
+                            <div class="box" data-preferences="capsule">
+                                <h4>Capsule</h4>
+                                <p>Compatible with Nespresso systems and similar brewers</p>
+                            </div>
+                            <div class="box" data-preferences="filter">
+                                <h4>Filter</h4>
+                                <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                            </div>
+                            <div class="box" data-preferences="espresso">
+                                <h4>Espresso</h4>
+                                <p> Dense and finely ground beans for an intense, flavorful experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category type">
+                        <button>
+                            <h3>What type of coffee?</h3>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </button>
+                        <div class="boxes">
+                            <div class="box" data-type="single origin">
+                                <h4>Single origin</h4>
+                                <p>Distinct, high quality coffee from a specific family-owned farm</p>
+                            </div>
+                            <div class="box" data-type="decaf">
+                                <h4>Decaf</h4>
+                                <p>Just like regular coffee, except the caffeine has been removed</p>
+                            </div>
+                            <div class="box" data-type="blended">
+                                <h4>Blended</h4>
+                                <p>Combination of two or three dark roasted beans of organic coffees</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category quantity">
+                        <button>
+                            <h3>How much would you like?</h3>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </button>
+                        <div class="boxes">
+                            <div class="box" data-quantity="250g">
+                                <h4>250g</h4>
+                                <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                            </div>
+                            <div class="box" data-quantity="500g">
+                                <h4>500g</h4>
+                                <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
+                            </div>
+                            <div class="box" data-quantity="1000g">
+                                <h4>1000g</h4>
+                                <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category grind-option">
+                        <button>
+                            <h3>Want us to grind them?</h3>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </button>
+                        <div class="boxes">
+                            <div class="box" data-grind="wholebean">
+                                <h4>Wholebean</h4>
+                                <p>Best choice if you cherish the full sensory experience</p>
+                            </div>
+                            <div class="box" data-grind="filter">
+                                <h4>Filter</h4>
+                                <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                            </div>
+                            <div class="box" data-grind="cafetiére">
+                                <h4>Cafetiére</h4>
+                                <p>Course ground beans specially suited for french press coffee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category deliveries">
+                        <button>
+                            <h3>How often should we deliver?</h3>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </button>
+                        <div class="boxes">
+                            <div class="box" data-delivery="every week">
+                                <h4>Every week</h4>
+                                <p>$<span id="weekly-price">14.00</span> per shipment. Includes free first-class shipping.</p>
+                            </div>
+                            <div class="box" data-delivery="every 2 weeks">
+                                <h4>Every 2 weeks</h4>
+                                <p> $<span id="biweekly-price">17.25</span> per shipment. Includes free priority shipping.</p>
+                            </div>
+                            <div class="box" data-delivery="every month">
+                                <h4>Every month</h4>
+                                <p>$<span id="monthly-price">22.25</span> per shipment. Includes free priority shipping.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="summary">
+            <div class="container">
+                <div class="box">
+                    <h3>order summary</h3>
+                    <h4>
+                        "I drink my coffee as <span class="drink-summary">filter</span>, with a <span class="type-summary">decaf</span> type
+                         of bean. <span class="quantity-summary">250g</span> ground ala <span class="grind-summary">Cafetiére</span>, sent to me <span class="deliver-summary">every week</span>."
+                    </h4>
+                </div>
+                <button class="btn" onclick="window.location.href='index.html'">create your plan</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="logo c-flex">
+                <img src="./assets/shared/desktop/logo-white.svg" alt="">
+            </div>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="plan.html">create your plan</a></li>
+            </ul>
+            <div class="social c-flex">
+                <a href="https://web.facebook.com/simo.asri.378/" target="_blank" class="c-flex"><img src="./assets/shared/desktop/icon-facebook.svg" alt="facebook"></a>
+                <a href="https://www.instagram.com/simo5904/" target="_blank" class="c-flex"><img src="./assets/shared/desktop/icon-instagram.svg" alt="instagram"></a>
+                <a href="https://x.com/ELASRI08455745" target="_blank" class="c-flex"><img src="./assets/shared/desktop/icon-twitter.svg" alt="twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
